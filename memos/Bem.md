@@ -13,6 +13,10 @@
   - [Modifier](#modifier)
     - [命名規則](#命名規則-2)
 - [ディレクトリ構成のベストプラクティス](#構成)
+- [Block の入れ子の実装](#block-入子実装)
+  - [Wrap](#wrap)
+  - [Mixes](#mixes)
+  - [Mixes](#mixes-1)
 - [Block の再利用](#block-再利用)
 - [参考文献](#参考文献)
 
@@ -82,6 +86,24 @@ BEM のディレクトリ構成の原則として、次の2つがある。
     - navigation.scss
 
 Element と Modifier は、依存する Block のファイルに記述する。
+
+# Block の入れ子の実装
+
+Block は他の Block に内包される可能性がある。そのような場合、wrap や mixes という方法を用いる。
+
+## Wrap
+
+Wrap は、内包された Block を内包する Element を定義する。追加のスタイルは、定義した Element に書く。
+
+- media: Block
+  - media__button: button を wrap する Element
+    - button: media に内包された Block
+
+## Mixes
+
+???
+
+## Mixes
 
 # Block の再利用
 
