@@ -1,0 +1,18 @@
+{
+  "name": "html-scss-training",
+  "version": "1.0.0",
+  "description": "## webpack test",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "build.watch": "webpack --mode=development --watch"
+  },
+  "devDependencies": {
+    "css-loader": "3.5.3",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "node-sass": "4.14.0",
+    "sass-loader": "8.0.2",
+    "style-loader": "1.2.1",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11"
+  }
+}
