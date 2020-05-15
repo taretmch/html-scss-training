@@ -2,6 +2,7 @@
 
 @import "./block/header.scss";
 @import "./block/main-content.scss";
+@import "./block/sidebar.scss";
 @import "./setting/size.scss";
 
 body {
@@ -34,8 +35,10 @@ a:hover { text-decoration: underline; }
 
   background-color: white;
   margin-top:       500px;
+  padding:          $padding-size-huge 0;
 
   &:after {
+
     display: block;
     content: "";
     clear:   both;
@@ -43,7 +46,6 @@ a:hover { text-decoration: underline; }
 
   .content-container {
 
-    padding: $padding-size-huge 0;
     margin:  0 auto;
     width:   960px;
   }
