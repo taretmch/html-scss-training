@@ -1,0 +1,13 @@
+@import "../setting/font.scss";
+@import "../setting/size.scss";
+
+.section {
+
+  margin-bottom: $margin-size-huge;
+
+  &__title {
+
+    font-family: $main-font-family, $sub-font-family;
+    font-size:   $h2-font-size;
+  }
+}
