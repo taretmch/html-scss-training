@@ -4,6 +4,7 @@
 @import "./setting/size.scss";
 
 body {
+
   margin: 0;
   padding: 0;
   background-color: #cccccc;
@@ -14,6 +15,7 @@ body {
 }
 
 #portfolio {
+
   background-attachment: fixed;
   background-position:   center top;
   background-repeat:     no-repeat;
@@ -28,7 +30,14 @@ a { color: #3583aa; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 .main-container {
+
   background-color: white;
   padding:          $padding-size-huge 0;
   clear:            both;
+
+  .content-container {
+
+    width:  960px;
+    margin: 0 auto;
+  }
 }
