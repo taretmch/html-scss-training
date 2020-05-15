@@ -12,6 +12,14 @@ body {
   position:    relative;
 }
 
+#portfolio {
+  background-attachment: fixed;
+  background-position:   center top;
+  background-repeat:     no-repeat;
+  background-image:      url(../images/bg-portfolio.jpeg);
+  background-size:       100% auto;
+}
+
 ul { margin: 0; padding: 0; }
 
 a { color: #3583aa; text-decoration: none; }
