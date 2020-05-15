@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 @import "./block/header.scss";
+@import "./setting/size.scss";
 
 body {
   margin: 0;
@@ -26,3 +27,8 @@ a { color: #3583aa; text-decoration: none; }
 
 a:hover { text-decoration: underline; }
 
+.main-container {
+  background-color: white;
+  padding:          $padding-size-huge 0;
+  clear:            both;
+}
