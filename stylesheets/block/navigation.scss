@@ -1,0 +1,32 @@
+@import "../setting/font.scss";
+@import "../setting/color.scss";
+
+.navigation {
+
+  &__menu {
+
+    margin-top: 60px;
+    padding:    0px;
+    float:      right;
+  }
+
+  &__item {
+
+    font-family: $navigation-main-font, $navigation-sub-font;
+    list-style:  none;
+    font-size:   $font-size-medium;
+    margin:      0 20px;
+    float:       left;
+  }
+
+  &__link {
+    
+    color: $navigation-font-color;
+
+    &:hover {
+      text-decoration: none;
+      padding-bottom:  3px;
+      border-bottom:   2px solid $navigation-font-color;
+    }
+  }
+}
