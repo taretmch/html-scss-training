@@ -1,0 +1,13 @@
+@import "./navigation.scss";
+
+.header {
+
+  background: black;
+  height: 100px;
+
+  .header__content {
+    margin: 0 auto;
+    width:  960px;
+    text-align: right;
+  }
+}
