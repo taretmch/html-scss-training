@@ -20,7 +20,6 @@
   "unitless-zero": true,
   "vendor-prefix-align": true,
   "sort-order": [
-    // 視覚整形モデルに関するプロパティ
     [
       "display",
       "visibility",
@@ -41,7 +40,6 @@
       "clear",
       "transform"
     ],
-    // ボックスモデルに関するプロパティ
     [
       "width",
       "min-width",
@@ -92,7 +90,6 @@
       "box-sizing",
       "box-shadow"
     ],
-    // 背景に関するプロパティ
     [
       "background",
       "background-image",
@@ -104,7 +101,6 @@
       "background-attachment",
       "background-color"
     ],
-    // フォント、テキスト、色に関するプロパティ
     [
       "color",
       "font",
@@ -129,7 +125,6 @@
       "word-wrap",
       "text-shadow"
     ],
-    // 表に関するプロパティ
     [
       "table-layout",
       "border-collapse",
@@ -138,7 +133,6 @@
       "caption-side",
       "vertical-align"
     ],
-    // Flexible Box に関するプロパティ
     [
       "flex",
       "flex-grow",
@@ -153,7 +147,6 @@
       "align-self",
       "order"
     ],
-    // 生成内容・ユーザーインターフェースに関するプロパティ
     [
       "content",
       "quotes",
@@ -166,7 +159,6 @@
       "cursor",
       "resize"
     ],
-    // アニメーションに関するプロパティ
     [
       "transition",
       "transition-property",
@@ -183,7 +175,6 @@
       "animation-fill-mode",
       "animation-play-state"
     ],
-    // その他に関するプロパティ
     [
       "unicode-bidi",
       "direction",
