@@ -1,0 +1,21 @@
+@import "./section.scss";
+@import "../setting/font.scss";
+@import "../setting/color.scss";
+@import "../setting/size.scss";
+
+.main-content-container {
+
+  margin: 0 $margin-size-tiny;
+  width:  700px;
+  float:  left;
+  
+  .main-content {
+
+    &__title {
+
+      border-bottom: 1px solid $headline-font-color;
+      font-family:   $main-font-family, $sub-font-family;
+      font-size:     $h1-font-size;
+    }
+  }
+}

@@ -1,8 +1,12 @@
 @charset "utf-8";
 
 @import "./block/header.scss";
+@import "./block/main-content.scss";
+@import "./block/sidebar.scss";
+@import "./setting/size.scss";
 
 body {
+
   margin: 0;
   padding: 0;
   background-color: #cccccc;
@@ -13,6 +17,7 @@ body {
 }
 
 #portfolio {
+
   background-attachment: fixed;
   background-position:   center top;
   background-repeat:     no-repeat;
@@ -26,3 +31,22 @@ a { color: #3583aa; text-decoration: none; }
 
 a:hover { text-decoration: underline; }
 
+.main-container {
+
+  background-color: white;
+  margin-top:       500px;
+  padding:          $padding-size-huge 0;
+
+  &:after {
+
+    display: block;
+    content: "";
+    clear:   both;
+  }
+
+  .content-container {
+
+    margin:  0 auto;
+    width:   960px;
+  }
+}
