@@ -1,31 +1,26 @@
-@import "../setting/variables.scss";
+@import '../setting/variables.scss';
 
 .navigation {
-
   &__menu {
-
-    margin-top: 60px;
-    padding:    0px;
     float:      right;
+    margin-top: 60px;
+    padding:    0;
   }
 
   &__item {
-
-    font-family: $main-font-family, $sub-font-family;
+    float:       left;
+    margin:      0 $margin-size-medium;
     list-style:  none;
     font-size:   $font-size-medium;
-    margin:      0 20px;
-    float:       left;
+    font-family: $main-font-family, $sub-font-family;
   }
 
   &__link {
-    
     color: $navigation-font-color;
 
     &:hover {
-
-      text-decoration: none;
       padding-bottom:  3px;
+      text-decoration: none;
       border-bottom:   2px solid $navigation-font-color;
     }
   }
