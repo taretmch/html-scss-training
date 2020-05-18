@@ -1,11 +1,9 @@
 @import '../setting/variables.scss';
 
 .navigation {
-  &__menu {
-    float:      right;
-    margin-top: 60px;
-    padding:    0;
-  }
+  float:      right;
+  margin-top: 60px;
+  padding:    0;
 
   &__item {
     list-style:  none;

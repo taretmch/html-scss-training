@@ -1,21 +1,19 @@
-.navigation__menu {
+.navigation {
   float: right;
   margin-top: 60px;
   padding: 0; }
-
-.navigation__item {
-  list-style: none;
-  float: left;
-  margin: 0 20px;
-  font-size: 20px;
-  font-family: "Bitter", serif; }
-
-.navigation__link {
-  color: #ffffff; }
-  .navigation__link:hover {
-    padding-bottom: 3px;
-    text-decoration: none;
-    border-bottom: 2px solid #ffffff; }
+  .navigation__item {
+    list-style: none;
+    float: left;
+    margin: 0 20px;
+    font-size: 20px;
+    font-family: "Bitter", serif; }
+  .navigation__link {
+    color: #ffffff; }
+    .navigation__link:hover {
+      padding-bottom: 3px;
+      text-decoration: none;
+      border-bottom: 2px solid #ffffff; }
 
 .header {
   height: 100px; }
