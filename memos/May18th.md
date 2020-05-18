@@ -1,5 +1,20 @@
 # 2020-05-18/Mon
 
+## 目次
+
+<!-- vim-markdown-toc GFM -->
+
+- [file-loader の出力パスを指定したときに build.watch がループするのを止めたい](#file-loader-出力指定-buildwatch-止)
+  - [build.watch はなぜループするか](#buildwatch-)
+  - [妥協](#妥協)
+- [プロパティ記述順序](#記述順序)
+- [CSScomb](#csscomb)
+  - [導入](#導入)
+  - [使ってみる](#使)
+- [main タグについて](#main-)
+
+<!-- vim-markdown-toc -->
+
 ## file-loader の出力パスを指定したときに build.watch がループするのを止めたい
 
 出力パスは `./images/[name].[ext]` としたい。
@@ -108,3 +123,20 @@ webpack についていろいろ調べてみたが、なぜループが起こっ
 ```sh
 % node_modules/.bin/csscomb stylesheets/**/*.scss
 ```
+
+## main タグについて
+
+```html
+<div class="main-container">
+  <div class="content-container">
+    <div class="main-content-container">
+      <div class="main-content">
+```
+
+この `main-container` は `main` タグで置き換えた方がよい。
+
+`<main>` は、文書の `<body>` の主要な内容を表す。
+
+- [`<main>` - HTML](https://developer.mozilla.org/ja/docs/Web/HTML/Element/main)
+- https://creive.me/archives/8814/
+
