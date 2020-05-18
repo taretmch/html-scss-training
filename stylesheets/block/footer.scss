@@ -1,14 +1,12 @@
-@import "../setting/variables.scss";
+@import '../setting/variables.scss';
 
 .footer {
-
-  background-color: $footer-background-color;
-  text-align:       center;
   padding:          $padding-size-medium 0;
+  text-align:       center;
   color:            $footer-font-color;
+  background-color: $footer-background-color;
 
   &__copyright {
-
     font-size: $copyright-font-size;
   }
 }
