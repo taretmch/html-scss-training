@@ -1,4 +1,30 @@
-.sidebar {
+@import "./section.scss";
+@import "../setting/font.scss";
+@import "../setting/size.scss";
 
-  float: left;
+.sidebar-container {
+
+  font-family: $main-font-family, $sub-font-family;
+  margin:      0 $margin-size-tiny 0 $margin-size-very-large;
+  width:       200px;
+  float:       right;
+
+  .sidebar {
+
+    &-section__title {
+
+      margin-bottom: 10px;
+    }
+
+    &__list {
+
+      margin-left: $margin-size-medium;
+      font-size:   $sidebar-item-font-size;
+
+      &__link {
+
+        color: #333333;
+      }
+    }
+  }
 }
