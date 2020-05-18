@@ -6,7 +6,7 @@
 
 以下のようにすると、ビルドに成功するものの build.watch がループする。
 
-```json
+```js
 // webpack.config.js
 {
   test: /\.(png|jpe?g|gif)$/i,
@@ -40,7 +40,7 @@ webpack についていろいろ調べてみたが、なぜループが起こっ
 
 画像ファイルを `images/` フォルダに入れるのを諦めると、ループが止まり watch がうまくいくようになった。
 
-```json
+```js
 {
   test: /\.(png|jpe?g|gif)$/i,
   use: [
