@@ -1,14 +1,12 @@
-@import "./navigation.scss";
+@import './navigation.scss';
 
 .header-container {
-
   .header {
-
     height: 100px;
 
     .header__content {
-      margin: 0 auto;
-      width:  960px;
+      width:      960px;
+      margin:     0 auto;
       text-align: right;
     }
   }
