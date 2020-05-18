@@ -8,9 +8,9 @@
   }
 
   &__item {
+    list-style:  none;
     float:       left;
     margin:      0 $margin-size-medium;
-    list-style:  none;
     font-size:   $font-size-medium;
     font-family: $main-font-family, $sub-font-family;
   }

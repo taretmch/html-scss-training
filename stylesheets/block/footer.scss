@@ -3,8 +3,8 @@
 .footer {
   padding:          $padding-size-medium 0;
   background-color: $footer-background-color;
-  text-align:       center;
   color:            $footer-font-color;
+  text-align:       center;
 
   &__copyright {
     font-size: $copyright-font-size;
