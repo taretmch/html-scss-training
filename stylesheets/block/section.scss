@@ -10,4 +10,9 @@
     font-family: $main-font-family, $sub-font-family;
     font-size:   $h2-font-size;
   }
+
+  &__image:hover {
+    
+    opacity: 0.8;
+  }
 }
