@@ -30,11 +30,11 @@
   .section__image:hover {
     opacity: 0.8; }
 
-.main-content-container {
+.main-content {
   float: left;
   width: 700px;
   margin: 0 10px; }
-  .main-content-container .main-content__title {
+  .main-content__title {
     font-size: 36px;
     font-family: "Bitter", serif;
     border-bottom: 1px solid #cccccc; }
@@ -47,17 +47,17 @@
   .section__image:hover {
     opacity: 0.8; }
 
-.sidebar-container {
+.sidebar {
   float: right;
   width: 200px;
   margin: 0 10px 0 30px;
   font-family: "Bitter", serif; }
-  .sidebar-container .sidebar-section__title {
+  .sidebar-section__title {
     margin-bottom: 10px; }
-  .sidebar-container .sidebar__list {
+  .sidebar__list {
     margin-left: 20px;
     font-size: 16px; }
-    .sidebar-container .sidebar__list__link {
+    .sidebar__list__link {
       color: #333333; }
 
 .footer {

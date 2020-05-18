@@ -1,24 +1,22 @@
 @import './section.scss';
 @import '../setting/variables.scss';
 
-.sidebar-container {
+.sidebar {
   float:       right;
   width:       200px;
   margin:      0 $margin-size-tiny 0 $margin-size-very-large;
   font-family: $main-font-family, $sub-font-family;
 
-  .sidebar {
-    &-section__title {
-      margin-bottom: 10px;
-    }
+  &-section__title {
+    margin-bottom: 10px;
+  }
 
-    &__list {
-      margin-left: $margin-size-medium;
-      font-size:   $sidebar-item-font-size;
+  &__list {
+    margin-left: $margin-size-medium;
+    font-size:   $sidebar-item-font-size;
 
-      &__link {
-        color: #333333;
-      }
+    &__link {
+      color: #333333;
     }
   }
 }
