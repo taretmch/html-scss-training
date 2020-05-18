@@ -140,3 +140,4 @@ webpack についていろいろ調べてみたが、なぜループが起こっ
 - [`<main>` - HTML](https://developer.mozilla.org/ja/docs/Web/HTML/Element/main)
 - https://creive.me/archives/8814/
 
+同様に `<article>` を利用したい。
