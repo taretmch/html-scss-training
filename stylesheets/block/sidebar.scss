@@ -1,29 +1,22 @@
-@import "./section.scss";
-@import "../setting/variables.scss";
+@import './section.scss';
+@import '../setting/variables.scss';
 
-.sidebar-container {
-
-  font-family: $main-font-family, $sub-font-family;
-  margin:      0 $margin-size-tiny 0 $margin-size-very-large;
-  width:       200px;
+.sidebar {
   float:       right;
+  width:       200px;
+  margin:      0 $margin-size-tiny 0 $margin-size-very-large;
+  font-family: $main-font-family, $sub-font-family;
 
-  .sidebar {
+  &__title {
+    margin-bottom: 10px;
+  }
 
-    &-section__title {
+  &__list {
+    margin-left: $margin-size-medium;
+    font-size:   $sidebar-item-font-size;
 
-      margin-bottom: 10px;
-    }
-
-    &__list {
-
-      margin-left: $margin-size-medium;
-      font-size:   $sidebar-item-font-size;
-
-      &__link {
-
-        color: #333333;
-      }
+    &-link {
+      color: #333333;
     }
   }
 }
