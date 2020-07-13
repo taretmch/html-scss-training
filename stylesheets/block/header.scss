@@ -1,0 +1,11 @@
+@import './navigation.scss';
+
+.header {
+  height: 100px;
+
+  .header__content {
+    width:      960px;
+    margin:     0 auto;
+    text-align: right;
+  }
+}

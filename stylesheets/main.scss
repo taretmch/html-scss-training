@@ -1,0 +1,56 @@
+@charset 'utf-8';
+
+@import './block/header.scss';
+@import './block/main-content.scss';
+@import './block/sidebar.scss';
+@import './block/footer.scss';
+@import './setting/variables.scss';
+
+body {
+  position:         relative;
+  margin:           0;
+  padding:          0;
+  background-color: #cccccc;
+  color:            #333333;
+  font-size:        15px;
+  line-height:      2;
+}
+
+#portfolio {
+  background-image:      url(../images/bg-portfolio.jpeg);
+  background-position:   center top;
+  background-size:       100% auto;
+  background-repeat:     no-repeat;
+  background-attachment: fixed;
+}
+
+ul {
+  margin:  0;
+  padding: 0;
+}
+
+a {
+  color:           #3583aa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.main-container {
+  margin-top:       500px;
+  padding:          $padding-size-huge 0;
+  background-color: white;
+
+  &:after {
+    display: block;
+    clear:   both;
+    content: '';
+  }
+
+  .content-container {
+    width:  960px;
+    margin: 0 auto;
+  }
+}

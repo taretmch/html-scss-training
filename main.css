@@ -1,0 +1,108 @@
+.navigation {
+  float: right;
+  margin-top: 60px;
+  padding: 0; }
+  .navigation__item {
+    list-style: none;
+    float: left;
+    margin: 0 20px;
+    font-size: 20px;
+    font-family: "Bitter", serif; }
+  .navigation__link {
+    color: #ffffff; }
+    .navigation__link:hover {
+      padding-bottom: 3px;
+      text-decoration: none;
+      border-bottom: 2px solid #ffffff; }
+
+.header {
+  height: 100px; }
+  .header .header__content {
+    width: 960px;
+    margin: 0 auto;
+    text-align: right; }
+
+.section {
+  margin-bottom: 35px; }
+  .section__title {
+    font-size: 24px;
+    font-family: "Bitter", serif; }
+  .section__image:hover {
+    opacity: 0.8; }
+
+.main-content {
+  float: left;
+  width: 700px;
+  margin: 0 10px; }
+  .main-content__title {
+    font-size: 36px;
+    font-family: "Bitter", serif;
+    border-bottom: 1px solid #cccccc; }
+
+.section {
+  margin-bottom: 35px; }
+  .section__title {
+    font-size: 24px;
+    font-family: "Bitter", serif; }
+  .section__image:hover {
+    opacity: 0.8; }
+
+.sidebar {
+  float: right;
+  width: 200px;
+  margin: 0 10px 0 30px;
+  font-family: "Bitter", serif; }
+  .sidebar__title {
+    margin-bottom: 10px; }
+  .sidebar__list {
+    margin-left: 20px;
+    font-size: 16px; }
+    .sidebar__list-link {
+      color: #333333; }
+
+.footer {
+  padding: 20px 0;
+  background-color: #767671;
+  color: #ffffff;
+  text-align: center; }
+  .footer__copyright {
+    font-size: 12px; }
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2; }
+
+#portfolio {
+  background-image: url(bg-portfolio.jpeg);
+  background-position: center top;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #3583aa;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+.main-container {
+  margin-top: 500px;
+  padding: 35px 0;
+  background-color: white; }
+  .main-container:after {
+    display: block;
+    clear: both;
+    content: ''; }
+  .main-container .content-container {
+    width: 960px;
+    margin: 0 auto; }

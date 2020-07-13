@@ -1,0 +1,12 @@
+@import '../setting/variables.scss';
+
+.footer {
+  padding:          $padding-size-medium 0;
+  background-color: $footer-background-color;
+  color:            $footer-font-color;
+  text-align:       center;
+
+  &__copyright {
+    font-size: $copyright-font-size;
+  }
+}

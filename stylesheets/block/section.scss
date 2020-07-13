@@ -1,0 +1,14 @@
+@import '../setting/variables.scss';
+
+.section {
+  margin-bottom: $margin-size-huge;
+
+  &__title {
+    font-size:   $h2-font-size;
+    font-family: $main-font-family, $sub-font-family;
+  }
+
+  &__image:hover {
+    opacity: 0.8;
+  }
+}

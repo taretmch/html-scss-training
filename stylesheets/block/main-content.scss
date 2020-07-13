@@ -1,0 +1,14 @@
+@import './section.scss';
+@import '../setting/variables.scss';
+
+.main-content {
+  float:  left;
+  width:  700px;
+  margin: 0 $margin-size-tiny;
+
+  &__title {
+    font-size:     $h1-font-size;
+    font-family:   $main-font-family, $sub-font-family;
+    border-bottom: 1px solid $headline-font-color;
+  }
+}
